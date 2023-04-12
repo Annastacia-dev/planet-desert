@@ -14,7 +14,8 @@ export default {
         fern: '#497551',
       },
       fontFamily: {
-        rubik : ['Rubik', 'sans-serif'],
+        bebas : ['Bebas Neue', 'cursive'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },
