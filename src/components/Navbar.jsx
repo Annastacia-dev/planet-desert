@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav className='fixed flex space-x-32 sm:px-16 items-center z-10 text-white w-full'>
       <div className='flex justify-center items-center gap-2 py-6'>
-        <img src='/logo2.png' alt = "logo" width={25} height={25}/>
+        <img src='/logo.png' alt = "logo" width={25} height={25}/>
         <div className='flex flex-col text-xs font-bold capitalize tracking-wide'>
           <span>planet</span>
           <span className='-mt-1'>desert</span>
