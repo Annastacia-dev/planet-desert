@@ -22,7 +22,7 @@ const Hero = () => {
 
   const handleImageClick = (index) => {
     setCurrent(index);
-  }; 
+  };
 
 
   return (
@@ -46,8 +46,8 @@ const Hero = () => {
 
       </div>
       <img src={cacti[current].image} alt={cacti[current].name}
-      className={`w-[420px] absolute sm:right-40 sm:-bottom-0`} />
-          <div className="flex flex-col justify-center items-end h-[480px] absolute top-0 right-12 gap-8">
+      className={`w-[350px] absolute sm:right-48 sm:-bottom-0`} />
+          <div className="flex flex-col justify-center items-end h-[480px] absolute top-0 right-20 gap-8">
           {cacti.map((_, index) => (
             <div
               key={index}
