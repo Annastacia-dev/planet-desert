@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <div className='sm:px-32 sm:py-40 text-white -ml-12  grid grid-cols-1 sm:grid-cols-2 gap-4 relative'>
       <div className="col-span-1">
-        <h2 className="uppercase text-xs font-bold tracking-wider">cacti</h2>
+        <h2 className="uppercase text-xs font-bold tracking-wider">plants</h2>
         <h1 className="text-[8rem] font-extrabold font-bebas tracking-wide uppercase -ml-3 -mt-6 ">
           {cacti[current].name}
         </h1>
@@ -54,7 +54,7 @@ const Hero = () => {
               className={`text-white text-sm`}
               onClick={() => handleImageClick(index)}
             >
-              {index === current? <BsRecordCircle /> : <BsRecordFill />}
+              {index === current? <BsRecordCircle className='text-xl' /> : <BsRecordFill />}
             </div>
           ))}
           </div>

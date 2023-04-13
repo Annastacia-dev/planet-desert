@@ -6,6 +6,6 @@
     html {
       scroll-behavior: smooth;
       @apply font-montserrat;
-      @apply bg-gunmetal;
+      @apply bg-gradient-to-r from-gunmetal to-brunswickGreen;
     }
 }
